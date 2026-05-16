@@ -5,6 +5,7 @@ import pandas as pd
 
 DEFAULT_TALL_PATH = "benchmarks/benchmark_1m.csv"
 DEFAULT_WIDE_PATH = "benchmarks/benchmark_wide.csv"
+DEFAULT_MULTILINE_PATH = "benchmarks/benchmark_multiline.csv"
 
 
 def generate(rows=1_000_000, path=DEFAULT_TALL_PATH):
